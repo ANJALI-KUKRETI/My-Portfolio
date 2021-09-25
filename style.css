@@ -494,4 +494,8 @@ a {
   .form-1 textarea {
     width: 300px;
   }
-} ;
+}
+.offcanvas .offcanvas-header .btn-close {
+  filter: brightness(0) invert(1);
+  font-size: 20px;
+}
