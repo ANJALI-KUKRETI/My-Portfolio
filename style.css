@@ -123,7 +123,7 @@ a {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1030px) {
   #header {
     left: -300px;
   }
@@ -135,7 +135,7 @@ a {
 .off {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 1030px) {
   .off {
     display: block;
   }
@@ -192,6 +192,11 @@ a {
   font-weight: 500;
   font-size: 45px;
 }
+@media (max-width: 1024px) {
+  #anjali {
+    height: 45vh;
+  }
+}
 
 @media (max-width: 768px) {
   #anjali h1 {
@@ -205,6 +210,7 @@ a {
   #anjali .option li {
     font-size: 28px;
   }
+
   #anjali .option li span:after {
     content: "";
     position: absolute;
