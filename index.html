@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Favicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    
+    <!-- ----------HEADER---------- -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="images/Anjali.jpeg"
+            class="rounded-circle img-fluid"
+            alt="profile"
+          />
+          <h1>
+            <a href="index.html" class="text-light"
+              ><span class="fname"> Anjali</span> Kukreti</a
+            >
+          </h1>
+          <div class="social-media d-flex mt-3 mb-3 justify-content-around">
+            <a href="https://www.linkedin.com/in/anjali-kukreti-04ab671b2/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/anjali___kukreti/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009365796339" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/ANJALI-KUKRETI"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+
+        <div class="nav-menu navbar " id="navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bi bi-house-door"></i> <span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bi bi-person-circle"></i><span>About</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link scrollto"
+                ><i class="bi bi-book"></i></i> <span>Projects</span></a
+              >
+            </li>
+            
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bi bi-envelope"></i> <span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+   <!-- ----------------Navbar Responsive----------- -->
+   <nav class="navbar nav-respo navbar-light off">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#anjali"
+        ></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <a href="index.html" class="text-light"
+            ><span class="fname"> Anjali</span> Kukreti</a
+          >
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item m-4">
+              <a class="nav-link  " aria-current="page" href="#anjali"
+                > 
+                <i class="bi bi-house-door"></i> <span>Home</span></a>
+              
+            </li>
+            <hr />
+            <li class="nav-item m-4">
+              <a class="nav-link" href="#about"><i class="bi bi-person-circle"></i><span>About</span></a>
+            </li>
+            <hr />
+            <li class="nav-item m-4">
+              <a class="nav-link" href="#portfolio"><i class="bi bi-book"></i></i> <span>Projects</span></a>
+            </li>
+            <hr />
+            <li class="nav-item m-4">
+              <a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> <span>Contact</span></a>
+            </li>
+          </ul>
+
+        
+        <div class="social">
+          <img src="images/icon-facebook.svg" alt="" />
+          <img src="images/icon-twitter.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <!-- --------------IMAGE---------------- -->
+    
+  
+       <section id="anjali" class="d-flex flex-column justify-content-center align-items-center  ">
+    
+      <div class="anjali-container">
+        <h1>Hi, I'm Anjali!</h1>
+        <div class="main_box">
+        <div class="text">I am a</div>
+          <ul class="option">
+          <li><span>Web Developer</span></li>
+          <li><span>Programmer</span></li>
+          <li><span>Designer</span></li>
+          </ul>
+        </div>
+      </div>
+    
+      </section>
+
+      <main id="main">
+        <!-- About -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>About</h2>
+            <p>Hey!!, I'm <strong> Anjali</strong> a sophomore at <strong>College of Technology, G.B.P.U.A&T, Pantnagar, Uttarakhand</strong> doing <strong> B.Tech</strong> in Information Technology. I'm a <strong>Frontend Web Developer</strong> and a <strong> Problem Solver</strong> who loves exploring complex problems in search of delightful user experiencs. I have a good knowledge of HTML, CSS, Bootstrap, JavaScript, and Data Structures and Algorithms. Currently learning MERN Stack👩‍💻. I love to cook in free time👩‍🍳</p>
+          </div>
+        
+        <div class="row">
+          <div class="col-lg-4 ">
+            <img src="images/anjali2.jpeg" class="img-fluid about-image" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3 class="mb-4">Programmer &amp; Web Developer</h3>
+            <p class="fst-italic">
+              Always up for a challenge, fuelled by a passion of creating beautiful and user friendly products, I have a deep desire to excel and continuously improve in my work.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Date of Birth:</strong> <span>9 Feb 2001</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Website:</strong> <span>ufwaksncklas</span>
+                  </li>
+                 
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>City:</strong> <span>Uttarakhand,India</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>20</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>B.Tech(Information Technology)</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <span>anjalikuku098@gmail.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+      <section id="skills" class="skills section-bg">
+        <div class="container mb-4 rounded-3">
+          <div class="section-title">
+            <h2>Skills</h2>
+            
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" >
+              <div class="prog">
+                <span class="skill">HTML <i class="val">90%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                </div>
+              </div>
+
+              <div class="prog">
+                <span class="skill">CSS <i class="val">85%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                </div>
+              </div>
+
+              <div class="prog">
+                <span class="skill">Bootstrap<i class="val">85%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="prog">
+                <span class="skill">C<i class="val">90%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                </div>
+              </div>
+
+              <div class="prog">
+                <span class="skill">C++ <i class="val">80%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+              </div>
+
+              <div class="prog">
+                <span class="skill">Javascript <i class="val">70%</i></span>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+
+      <!-- Projects -->
+      <section id="portfolio" class="portfolio section-bg mt-5">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projects</h2>
+          </div>
+          <p>Checkout my work below and feel free to get in touch if you want to work with me.</p>
+          <div class="row pro">
+            <div class="col-10 col-lg-4">
+             <div class="card mt-5" >
+              <img src="images/dice game.PNG" class="card-img-top img-fluid  " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dice Game</h5>
+              <div class="d-flex">
+                <div>
+                <h6>Tech Stack👩‍💻:</h6>
+                </div>
+                <div>
+                <ul>HTML</ul>
+                <ul>CSS</ul>
+                <ul>JavaScript</ul>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around">
+                <a href="https://github.com/ANJALI-KUKRETI/Dice-game" class="btn btn-primary ">Github Link</a>
+                <a href="https://anjali-kukreti.github.io/Dice-game/" class="btn btn-primary live ">Live Link👈</a>
+              </div>
+              </div>
+            </div>
+
+            </div>
+            <div class="col-10 col-lg-4">
+              <div class="card mt-5" >
+                <img src="images/blue.PNG" class="card-img-top blue img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hotel Website</h5>
+                  <div class="d-flex">
+                    <div>
+                    <h6>Tech Stack👩‍💻:</h6>
+                  </div>
+                  <div>
+                    <ul>HTML</ul>
+                    <ul class="rem">CSS</ul>
+                    
+                  </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                    <a href="https://github.com/ANJALI-KUKRETI/Blue-Hill-Hotel-website" class="btn btn-primary live ">Github Link</a>
+                    <a href="https://anjali-kukreti.github.io/Blue-Hill-Hotel-website/" class="btn btn-primary live ">Live Link👈</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-lg-4">
+              <div class="card mt-5" >
+                <img src="images/snake.PNG" class="card-img-top img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Snake Game</h5>
+                  <div class="d-flex">
+                    <div>
+                    <h6>Tech Stack👩‍💻:</h6>
+                  </div>
+                  <div>
+                    <ul>HTML</ul>
+                    <ul>CSS</ul>
+                    <ul>JavaScript</ul>
+                  </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                    <a href="https://github.com/ANJALI-KUKRETI/Snake-Game " class="btn btn-primary live ">Github Link</a>
+                    <a href="https://anjali-kukreti.github.io/Snake-Game/" class="btn btn-primary live ">Live Link👈</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pro">
+            <div class="col-10 col-lg-4">
+              <div class="card mt-5" >
+                <img src="images/bookmark.PNG" class="card-img-top img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bookmark Landing Page</h5>
+                  <div class="d-flex">
+                    <div>
+                    <h6>Tech Stack👩‍💻:</h6>
+                  </div>
+                  <div>
+                    <ul>HTML</ul>
+                    <ul>CSS</ul>
+                    <ul>Bootstrap</ul>
+                  </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                    <a href="https://github.com/ANJALI-KUKRETI/test-bootcamp" class="btn btn-primary ">Github Link</a>
+                    <a href="https://anjali-kukreti.github.io/test-bootcamp/" class="btn btn-primary live ">Live Link👈</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-lg-4">
+              <div class="card mt-5" >
+                <img src="images/portfolio.PNG" class="card-img-top img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Portfolio Website</h5>
+                  <div class="d-flex">
+                    <div>
+                    <h6>Tech Stack👩‍💻:</h6>
+                  </div>
+                  <div>
+                    <ul>HTML</ul>
+                    <ul>CSS</ul>
+                    <ul>Bootstrap</ul>
+                  </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                    <a href="https://github.com/ANJALI-KUKRETI/Dice-game" class="btn btn-primary ">Github Link</a>
+                    <a href="https://anjali-kukreti.github.io/Dice-game/" class="btn btn-primary live ">Live Link👈</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-lg-4">
+              <div class="card mt-5" >
+                <img src="images/summary.PNG" class="card-img-top img-fluid  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Summary Card </h5>
+                  <div class="d-flex">
+                    <div>
+                    <h6>Tech Stack👩‍💻:</h6>
+                  </div>
+                  <div>
+                    <ul>HTML</ul>
+                    <ul class="rem">CSS</ul>
+                    <ul></ul>
+                  </div>
+                  </div>
+                  <div class="d-flex justify-content-around">
+                    <a href="https://github.com/ANJALI-KUKRETI/Order-summary-card" class="btn btn-primary ">Github Link</a>
+                    <a href="https://anjali-kukreti.github.io/Order-summary-card/" class="btn btn-primary live ">Live Link👈</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact d-flex justify-content-center align-items-center">
+        <div class="container m-3">
+          <div class="row con d-flex justify-content-around">
+            <div class="col">
+              <div class="section-title">
+                <h2>Send Message</h2>
+                <div class="d-flex flex-column justify-content-center ">
+                  <form action="mailto:anjalikuku098@gmail.com" method="POST" enctype=”multipart/form-data” name="Portfolio">
+                <div class="form-1">
+                  <input type="text" placeholder="Your Name">
+                </div>
+                <div class="form-1"><input type="email" placeholder="Your Email"></div>
+                  <div class="form-1"><input type="text" placeholder="Subject" name="Subject"></div>
+                  <div class="form-1">
+                  <textarea name="messgae" id="message" cols="47" rows="7" placeholder="Message"></textarea>
+                </div> 
+                <div>
+                 <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+                </div>
+                </form>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="section-title">
+                <h2>Get in Touch</h2>
+              </div>
+              <div>
+                <div><i class="bi bi-geo-alt-fill"></i> <span class="address"> Chamba Tehri Garhwal, Uttarakhand India</span></div>
+                <div><i class="bi bi-envelope-fill"></i><span class="address">anjalikuku098@gmail.com</span></div>
+              </div>
+              <div class="social-media d-flex mt-5 mb-3 ">
+                <a href="https://www.linkedin.com/in/anjali-kukreti-04ab671b2/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/anjali___kukreti/" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009365796339" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/ANJALI-KUKRETI"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
