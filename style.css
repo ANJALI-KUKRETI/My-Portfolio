@@ -311,30 +311,6 @@ a {
   bottom: 0;
   left: 0;
 }
-/* .about .content ul {
-  list-style: none;
-  padding: 0;
-}
-.lower-para {
-  margin-top: 30px;
-}
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-
-  margin-right: 5px;
-  color: #149ddd;
-  line-height: 0;
-} */
 
 @media (min-width: 1200px) {
   /* .about {
